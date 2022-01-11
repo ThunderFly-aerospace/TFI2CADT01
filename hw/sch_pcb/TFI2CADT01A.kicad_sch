@@ -2494,7 +2494,7 @@
   (symbol (lib_id "Device:R") (at 156.845 126.365 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 4cfea622-e15b-484a-a2aa-621961cf6026)
-    (property "Reference" "R?" (id 0) (at 155.575 123.825 90)
+    (property "Reference" "R12" (id 0) (at 155.575 123.825 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1M" (id 1) (at 158.75 123.825 90)
@@ -3231,7 +3231,7 @@
   (symbol (lib_id "Device:R") (at 131.445 163.195 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid ecd17538-5422-4aa3-9951-3654d3d4054e)
-    (property "Reference" "R?" (id 0) (at 130.175 160.655 90)
+    (property "Reference" "R10" (id 0) (at 130.175 160.655 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1M" (id 1) (at 133.35 160.655 90)
@@ -3538,8 +3538,14 @@
     (path "/01ae81ad-50a2-4d33-8ea0-fd3d98098a5e"
       (reference "R9") (unit 1) (value "887k") (footprint "")
     )
+    (path "/ecd17538-5422-4aa3-9951-3654d3d4054e"
+      (reference "R10") (unit 1) (value "1M") (footprint "")
+    )
     (path "/63118696-0cad-41c6-bec2-fb8df2bc487f"
       (reference "R11") (unit 1) (value "180R") (footprint "Mlab_R:SMD-0603")
+    )
+    (path "/4cfea622-e15b-484a-a2aa-621961cf6026"
+      (reference "R12") (unit 1) (value "1M") (footprint "")
     )
     (path "/e522d3ba-c528-466d-97f7-febc1fe1663f"
       (reference "R13") (unit 1) (value "887k") (footprint "")
@@ -3555,12 +3561,6 @@
     )
     (path "/d118c8bc-4590-421e-8666-81cbfb59aca6"
       (reference "R17") (unit 1) (value "10k") (footprint "Mlab_R:SMD-0603")
-    )
-    (path "/4cfea622-e15b-484a-a2aa-621961cf6026"
-      (reference "R?") (unit 1) (value "1M") (footprint "")
-    )
-    (path "/ecd17538-5422-4aa3-9951-3654d3d4054e"
-      (reference "R?") (unit 1) (value "1M") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005de928cf"
       (reference "U1") (unit 1) (value "MIC5504-3.3YM5") (footprint "Package_TO_SOT_SMD:SOT-23-5")
