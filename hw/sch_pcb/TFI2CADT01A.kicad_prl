@@ -1,7 +1,7 @@
 {
   "board": {
-    "active_layer": 48,
-    "active_layer_preset": "Všechny vrstvy",
+    "active_layer": 49,
+    "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_nets": [],
     "high_contrast_mode": 0,
@@ -18,7 +18,7 @@
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": false,
+      "lockedItems": true,
       "otherItems": true,
       "pads": true,
       "text": true,
@@ -42,8 +42,6 @@
       14,
       15,
       16,
-      17,
-      18,
       19,
       20,
       21,
@@ -63,7 +61,7 @@
       36
     ],
     "visible_layers": "fffffff_ffffffff",
-    "zone_display_mode": 0
+    "zone_display_mode": 1
   },
   "meta": {
     "filename": "TFI2CADT01A.kicad_prl",
