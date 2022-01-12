@@ -22,6 +22,9 @@ Default address translation is listed in following table:
 | 2 | Disconnected | 0x78 | 0b1111000 |
 | 2 | Soldered     | 0x7f | 0b1111111 |
 
+### Determining the called address
+The new device address can be determined very easily. Just take the destination address and do an XOR with the port change address. For example, you can use an [online calculator](https://xor.pw/). 
+
 
 ## Example of usage
 
