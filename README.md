@@ -9,14 +9,18 @@ The module is designed and optimized for use on drones especially UAVs. It is co
 
 
 ## Translation method
-
+The called address of slave device is translated by a logical operation [XOR](https://en.wikipedia.org/wiki/Bitwise_operation#XOR) with the default address in the module. Each port has a different default address. The address of each port can be changed independently by soldering a solder jumper.
 
 
 ## Configuration
-This module is configured trought 3 resistors for each channal. This module does not 'exist' on the bus and has no own address. The setting of translation address is set by the ratio of the voltage on the two pins to the supply voltage of the circuit.
 
-By default, the module contains resistors with values xxx, xxx, xxx. This setting corresponds to the change 0b00000000. 
-
+Default address translation is listed in following table: 
+| Port | Solder jumper | XOR value (in hex) | XOR value in binary form | 
+|---|---|---|---|
+| 1 | Disconnected | 0x08 | 0b0001000 |
+| 1 | Soldered     | 0x0f | 0b0001111 |
+| 2 | Disconnected | 0x78 | 0b1111000 |
+| 2 | Soldered     | 0x7f | 0b1111111 |
 
 
 ## Example of usage
