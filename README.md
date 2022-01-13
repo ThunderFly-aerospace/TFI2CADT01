@@ -1,7 +1,9 @@
 # TFI2CADT01
 TFI2CADT01 is I2C address changer module. This allows you to connect multiple I2C devices with the same address to one master device and one bus.
 
-![obrazek](https://user-images.githubusercontent.com/5196729/149295532-077a5916-0c31-433f-8b9e-35037fd6105f.png)
+![obrazek](https://user-images.githubusercontent.com/5196729/149297092-38237e5c-d566-43c7-93bc-68dea7b6586e.png)
+
+![obrazek](https://user-images.githubusercontent.com/5196729/149297679-05891769-c65a-42ed-a3b0-6f9f6cd7a96b.png)
 
 
 A common problem is that the user wants to connect multiple sensors with the same address (or a limited number of addresses) to one I2C master. The purpose of this module is to change the address with which I2C master calls to the address of the target I2C (slave) device. The translation method is described below. 
