@@ -29,6 +29,10 @@ The new device address which should be called by master could be calculated easi
 
 ## Example of usage
 
+
+![TFI2CADT01A using multiple sensors](/doc/img/TFI2CADT01_multi_TFRPM01.jpg)
+
+
 ### TFRPM tachometer sensor
 
 
