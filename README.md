@@ -39,3 +39,6 @@ The new device address which should be called by master could be calculated easi
 ### TFSLOT airspeed sensor
 
 
+### TFHT hygrometr
+
+
