@@ -39,7 +39,7 @@ jobs:
           token: ${{ secrets.pat }}
           fetch-depth: 0
           
-      - uses: INTI-CMNB/KiBot@master
+      - uses: INTI-CMNB/KiBot@v1_k6
         with:
           config: ${{ env.kibot }}/erc.kibot.yaml
           schema: ${{ env.schema }}
@@ -56,7 +56,7 @@ jobs:
           submodules: recursive
           token: ${{ secrets.pat }}
           
-      - uses: INTI-CMNB/KiBot@master
+      - uses: INTI-CMNB/KiBot@v1_k6
         with:
           config: ${{ env.kibot }}/drc.kibot.yaml
           schema: ${{ env.schema }}
@@ -74,7 +74,7 @@ jobs:
           token: ${{ secrets.pat }}
           fetch-depth: 0
           
-      - uses: INTI-CMNB/KiBot@master
+      - uses: INTI-CMNB/KiBot@v1_k6
         with:
           config: ${{ env.kibot }}/docs.kibot.yaml
           schema: ${{ env.schema }}
@@ -109,7 +109,7 @@ jobs:
           token: ${{ secrets.pat }}
           fetch-depth: 0
           
-      - uses: INTI-CMNB/KiBot@master          
+      - uses: INTI-CMNB/KiBot@v1_k6          
         with:
           config: ${{ env.kibot }}/gerbers.kibot.yaml
           schema: ${{ env.schema }}
@@ -142,7 +142,7 @@ jobs:
           token: ${{ secrets.pat }}
           fetch-depth: 0
           
-      - uses: INTI-CMNB/KiBot@master
+      - uses: INTI-CMNB/KiBot@v1_k6
         with:
           config: ${{ env.kibot }}/cad.kibot.yaml
           schema: ${{ env.schema }}
@@ -176,7 +176,7 @@ jobs:
           token: ${{ secrets.pat }}
           fetch-depth: 0
           
-      - uses: INTI-CMNB/KiBot@master
+      - uses: INTI-CMNB/KiBot@v1_k6
         with:
           config: ${{ env.kibot }}/render.kibot.yaml
           schema: ${{ env.schema }}
