@@ -68,28 +68,7 @@
         "copper_edge_clearance|350000|-10475000|b81c2fa0-ed9b-488a-bc66-3757a7aa2be7|2e0af798-ec07-475a-a889-bf6ce41006eb",
         "copper_edge_clearance|350000|-13025000|b81c2fa0-ed9b-488a-bc66-3757a7aa2be7|85f4703f-54a7-4adc-b956-00fdcdf2a989",
         "copper_edge_clearance|350000|-20475000|b81c2fa0-ed9b-488a-bc66-3757a7aa2be7|56ab5b7a-f50e-4a89-bdb7-72386aab4d99",
-        "copper_edge_clearance|350000|-3025000|b81c2fa0-ed9b-488a-bc66-3757a7aa2be7|5902bcfe-39e6-4b2f-bced-f8afa06c15d9",
-        "lib_footprint_issues|14746000|-6494001|4caf9eaa-543e-4e47-928d-c8d6d4aba48b|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_issues|14896000|-16494001|568c0077-49ae-497d-8c8f-3a73694d532c|00000000-0000-0000-0000-000000000000",
-        "starved_thermal|12496800|-3434500|76ef7a5a-27fd-47a1-8074-7fc4c77043e4|ddf299f4-9c4e-49f3-8542-fd07a5f5b416",
-        "starved_thermal|1450000|-10225000|76ef7a5a-27fd-47a1-8074-7fc4c77043e4|2e0af798-ec07-475a-a889-bf6ce41006eb",
-        "starved_thermal|1450000|-12775000|76ef7a5a-27fd-47a1-8074-7fc4c77043e4|85f4703f-54a7-4adc-b956-00fdcdf2a989",
-        "starved_thermal|1450000|-20225000|76ef7a5a-27fd-47a1-8074-7fc4c77043e4|56ab5b7a-f50e-4a89-bdb7-72386aab4d99",
-        "starved_thermal|1450000|-2775000|76ef7a5a-27fd-47a1-8074-7fc4c77043e4|5902bcfe-39e6-4b2f-bced-f8afa06c15d9",
-        "starved_thermal|20350000|-14625000|76ef7a5a-27fd-47a1-8074-7fc4c77043e4|06dc7a94-2a41-437c-899b-f592ca5b6047",
-        "starved_thermal|20350000|-18375000|76ef7a5a-27fd-47a1-8074-7fc4c77043e4|04403a14-37fb-4efc-a98d-f5d9d2507d4c",
-        "starved_thermal|20350000|-4625000|76ef7a5a-27fd-47a1-8074-7fc4c77043e4|0cb5289b-58f4-459f-b2d7-b3d667ce78e8",
-        "starved_thermal|20350000|-8375000|76ef7a5a-27fd-47a1-8074-7fc4c77043e4|104c0dba-998f-4441-8a0a-beed6d8f105b",
-        "starved_thermal|23550000|-10225000|76ef7a5a-27fd-47a1-8074-7fc4c77043e4|8c48e159-170a-4d25-b6b1-acea4639b87d",
-        "starved_thermal|23550000|-10225000|76ef7a5a-27fd-47a1-8074-7fc4c77043e4|bd09abe8-0201-4f06-b77f-397379a766c7",
-        "starved_thermal|23550000|-12775000|76ef7a5a-27fd-47a1-8074-7fc4c77043e4|099c7a2c-a692-4d91-8c45-75cded8859d9",
-        "starved_thermal|23550000|-12775000|76ef7a5a-27fd-47a1-8074-7fc4c77043e4|7e623bc6-23b6-4661-93b8-1f672e1d4d74",
-        "starved_thermal|23550000|-20225000|76ef7a5a-27fd-47a1-8074-7fc4c77043e4|5e13a335-acfc-4a8e-b358-3eb323d940ad",
-        "starved_thermal|23550000|-20225000|76ef7a5a-27fd-47a1-8074-7fc4c77043e4|f371a639-e9d2-4a83-965b-7ca3225c934a",
-        "starved_thermal|23550000|-2775000|76ef7a5a-27fd-47a1-8074-7fc4c77043e4|00be3821-f932-4a4d-a1cb-ed3b791b80f5",
-        "starved_thermal|23550000|-2775000|76ef7a5a-27fd-47a1-8074-7fc4c77043e4|63655039-3540-4735-a20c-b43189f97e97",
-        "starved_thermal|4650000|-18375000|76ef7a5a-27fd-47a1-8074-7fc4c77043e4|ec07636b-cbb9-455c-957c-682f328e1cb4",
-        "starved_thermal|4650000|-8375000|76ef7a5a-27fd-47a1-8074-7fc4c77043e4|2c1254ac-8ef6-4445-96c3-46140d0f2c87"
+        "copper_edge_clearance|350000|-3025000|b81c2fa0-ed9b-488a-bc66-3757a7aa2be7|5902bcfe-39e6-4b2f-bced-f8afa06c15d9"
       ],
       "meta": {
         "version": 2
@@ -464,7 +443,7 @@
       "model_mode": 0,
       "workbook_filename": ""
     },
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "../../doc/assets/templates/KiCAD/page_layout.kicad_wks",
     "plot_directory": "./",
     "spice_adjust_passive_values": false,
     "spice_external_command": "spice \"%I\"",
