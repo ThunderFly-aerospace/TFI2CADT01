@@ -106,7 +106,7 @@ jobs:
         with:
           submodules: recursive
           token: ${{ secrets.pat }}
-         ref: ${{ github.head_ref }}
+          ref: ${{ github.head_ref }}
           
       - uses: INTI-CMNB/KiBot@dev_k6
         with:
