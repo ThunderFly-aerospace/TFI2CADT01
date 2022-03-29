@@ -88,6 +88,7 @@ jobs:
           schema: ${{ env.schema }}
           board: ${{ env.board }}
           dir: ${{ env.dir }}_docs
+          verbose: 3
 
       - uses: actions/upload-artifact@v3
         if: ${{ success() }}
