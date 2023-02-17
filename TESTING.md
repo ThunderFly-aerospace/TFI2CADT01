@@ -1,5 +1,11 @@
 # Testování TFI2CADT01
 
+## Automatické testování (doporučeno)
+Postup pro automatické testování sám zkontroluje přeloženou adresu I2C zařizení a vyhodnotí, jestli je to správně nebo ne. Jedná se o jupyter notebook, který je nutné spustit lokálně v počítači, který má prístup k SMBUS sběrnici z kernelu. Instrukce a návod k použití je vepsán přímo v notebooku. 
+
+![image](https://user-images.githubusercontent.com/5196729/219703876-addc8ce5-fa70-4049-870a-2a9e302bb628.png)
+
+
 ## Základní (manuální) testování
 Základní testování TFI2CADT01 po výrobě lze provést v kompinaci s TFRPM01 pomocí python [skriptu](https://github.com/ThunderFly-aerospace/TFRPM01/blob/TFRPM01C/sw/pymlab/TFRPM_readout.py) postaveném na knihovně [PyMLAB](https://github.com/MLAB-project/pymlab). 
 
@@ -43,6 +49,3 @@ counter module example
 ```
 
 V prvním sloupci je čas. Následuje počet detekovaných signálů, určená frekvence a čas po kterou je frekvence počitána. 
-
-
-## Automatické testování
