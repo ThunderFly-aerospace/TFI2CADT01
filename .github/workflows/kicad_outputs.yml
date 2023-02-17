@@ -2,6 +2,8 @@ name: Kicad - production files generator
 
 on:
   push:
+    paths:
+      - '*kicad*'
   workflow_dispatch:
   
 env:
