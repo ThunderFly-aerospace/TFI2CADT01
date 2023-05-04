@@ -29,4 +29,12 @@ The board is equipped with a pair of input ports that are internally interconnec
 ### What’s included?
 
 - 1x TFI2CADT01A
-- 1x JST-GH 4-pin I2C cable in accordance to [cable style](https://docs.px4.io/master/en/assembly/cable_wiring.html#i2c-cables)
+
+
+### Accessories
+#### I2C cables
+I2C cables for connecting to the autopilot are not included in the package. You will need to purchase the cables separately from our [tindie catalog](https://www.tindie.com/stores/thunderfly/). We offer high-quality cables that are compatible with the [Pixhawk standard](https://raw.githubusercontent.com/pixhawk/Pixhawk-Standards/master/DS-009%20Pixhawk%20Connector%20Standard.pdf) and with a [ThunderFly color](https://docs.px4.io/main/en/assembly/cable_wiring.html#i2c-cables) scheme for easy signal identification. Our cables are specifically designed with improved resistance to electromagnetic interference and a silicone insulator that makes them highly flexible.
+
+  * Length 15 cm - [TFCAB15I2C01](https://github.com/ThunderFly-aerospace/TFCAB01) [Buy at Tindie](https://www.tindie.com/products/thunderfly/tfcab15i2c01-15-cm-i2c-cable-for-pixhawk-drones/)
+  * Length 30 cm - [TFCAB30I2C01](https://github.com/ThunderFly-aerospace/TFCAB01) [Buy at Tindie](https://www.tindie.com/products/thunderfly/tfcab30i2c01-30-cm-i2c-cable-for-pixhawk-drones/)
+  * Length 45 cm - [TFCAB45I2C01](https://github.com/ThunderFly-aerospace/TFCAB01) [Buy at Tindie](https://www.tindie.com/products/thunderfly/tfcab45i2c01-45-cm-i2c-cable-for-pixhawk-drones/)
