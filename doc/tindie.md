@@ -1,7 +1,7 @@
 ### What is it?
-TFI2CADT is a device translating addresses of I2C devices on a bus. As a result, multiple I2C slave devices with the same address can be connected to one master device. One TFI2CADT01 allows connecting 3 identical I2C devices (with one address) to one bus. The I2C master device will be visible under three addresses. 
+TFI2CADT is a device translating addresses of I2C devices on a bus. As a result, multiple I2C slave devices with the same address can be connected to one master device. One TFI2CADT01 allows connecting 3 identical I2C devices (with one address) to one bus. The I2C slave device will be visible under three addresses. 
 
-The module is designed in accordance with the [connector dronecode](https://github.com/pixhawk/Pixhawk-Standards/blob/master/DS-009%20Pixhawk%20Connector%20Standard.pdf) standard. Thanks to this, it can be very easily implemented into the existing avionics of your drone.
+The module is designed in accordance with the [pixhawk connector dronecode](https://github.com/pixhawk/Pixhawk-Standards/blob/master/DS-009%20Pixhawk%20Connector%20Standard.pdf) standard. Thanks to this, it can be very easily implemented into the existing avionics of your drone.
 
 ### Why did we make it?
 It often happens that more identical I2C devices (with the same address) need to be connected to one bus. We even had a request for connecting 4-8 RPM tachometers [TFRPM01](https://www.tindie.com/products/thunderfly/tfrpm01-drone-rpm-tachometer-sensor/) to PX4 autopilot.
