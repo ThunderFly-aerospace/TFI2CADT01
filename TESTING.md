@@ -3,6 +3,7 @@
 ## Automatické testování (doporučeno)
 Postup pro automatické testování sám zkontroluje přeloženou adresu I2C zařizení a vyhodnotí, jestli je to správně nebo ne. Jedná se o jupyter notebook, který je nutné spustit lokálně v počítači, který má prístup k SMBUS sběrnici z kernelu. Instrukce a návod k použití je vepsán přímo v notebooku. Test vyžaduje jedno další I2C zařízení (které obsahuje jedinou I2C adresu)
 
+Notebook se nachází v [sw/pymlab/TFI2CADT_TEST.ipynb](sw/pymlab/TFI2CADT_TEST.ipynb)
 ![image](https://user-images.githubusercontent.com/5196729/219703876-addc8ce5-fa70-4049-870a-2a9e302bb628.png)
 
 
