@@ -7,7 +7,7 @@ The module is designed in accordance with the [pixhawk connector dronecode](http
 It often happens that more identical I2C devices (with the same address) need to be connected to one bus. We even had a request for connecting 4-8 RPM tachometers [TFRPM01](https://www.tindie.com/products/thunderfly/tfrpm01-drone-rpm-tachometer-sensor/) to PX4 autopilot.
 
 ### What makes it special?
-The device is unique in that the address translation takes place in real-time, during the communication via I2C. The user software does not have to deal with any multiplexer channels switching or disconnecting individual parts of the bus. This feature also solves the amount of data flow on the bus. All devices are constantly visible for the I2C master device.
+The device is unique in that the address translation takes place in real-time, during communication via I2C. The user software does not have to deal with any multiplexer channels switching or disconnecting individual parts of the bus. This feature also solves the amount of data flow on the bus. All devices are constantly visible for the I2C master device.
 
 ###  How does the translation work?
 The address translation takes place internally. A logical operation XOR with a preset value is applied to the address sent by the master. The XOR value is different for each channel. 
@@ -17,14 +17,13 @@ By default, an XOR value of 0x08 is applied on the first port and a value of 0x7
 If these changes are still not sufficient, using configuration resistors you can create any XOR translation of the original address of the device. More information about the address change can be found in the datasheet.
 
 ###  How do I connect with the translator? 
-Connecting the translator is simple. It is just necessary to connect it between the I2C master and I2C slave devices. TFI2CADT has JST-GH connectors whose connection corresponds to the dronecode standard. 
+Connecting the translator is simple. It is just placed between the I2C master and I2C slave devices. TFI2CADT has JST-GH connectors whose connection corresponds to the dronecode standard. 
 
-The translator can be, using an adequate cable, connected to e.g. Arduino, raspberry, or other devices using I2C.
+Using an adequate cable, the translator can be connected to e.g. Arduino, raspberry, or other devices using I2C. The board is equipped with a pair of input ports that are internally interconnected to enable daisy-chain topology.
 
 ### How is the translator supported? 
-The translator is not software configurable and from the point of view of I2C communication is not visible. Thanks to this, it can be used with any I2C bus and the usage is not limited to UAV only.
 
-The board is equipped with a pair of input ports that are internally interconnected.
+The translator does not need a software configuration and from the point of view of I2C communication is not visible. Thanks to this, it can be used with any I2C bus, therefore it could be used with any Pixhawk autopilot compatible firmware like [PX4](https://px4.io/) or [Ardupilot](https://ardupilot.org/) additionally the usage is not limited to UAVs only.
 
 ### What’s included?
 
@@ -33,7 +32,8 @@ The board is equipped with a pair of input ports that are internally interconnec
    - [TFCABxxI2C01](https://github.com/ThunderFly-aerospace/TFCAB01) Silicone I2C cable with JST-GH connectors
 
 ### Accessories
-#### I2C cables
-I2C cables for connecting to the autopilot are not included in the package. You will need to purchase the cables separately from our [tindie catalog](https://www.tindie.com/stores/thunderfly/). We offer high-quality cables that are compatible with the [Pixhawk standard](https://raw.githubusercontent.com/pixhawk/Pixhawk-Standards/master/DS-009%20Pixhawk%20Connector%20Standard.pdf) and with a [ThunderFly color](https://docs.px4.io/main/en/assembly/cable_wiring.html#i2c-cables) scheme for easy signal identification. Our cables are specifically designed with improved resistance to electromagnetic interference and a silicone insulator that makes them highly flexible.
 
-  * [TFCABxxI2C01](https://github.com/ThunderFly-aerospace/TFCAB01) [Buy at Tindie](https://www.tindie.com/products/30113/)
+#### I2C cabling 
+Additional I2C cables for connecting to the autopilot are not included in the package. You must purchase the additional cables separately from our [tindie catalog](https://www.tindie.com/stores/thunderfly/). We offer high-quality cables that are compatible with the [Pixhawk standard](https://raw.githubusercontent.com/pixhawk/Pixhawk-Standards/master/DS-009%20Pixhawk%20Connector%20Standard.pdf) and with a [ThunderFly color](https://docs.px4.io/main/en/assembly/cable_wiring.html#i2c-cables) scheme for easy signal identification. Our cables are specifically designed with improved resistance to electromagnetic interference and a silicone insulator that makes them highly flexible.
+
+  * [TFCABxxI2C01 products](https://www.tindie.com/products/30113/)
