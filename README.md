@@ -36,16 +36,21 @@ The new device address which should be called by master could be calculated easi
 
 ## Example of usage
 
+The TFI2CADT01 could be used with a wide variety od ThunderFly or Pixhawk I²C sensors, here are few examples. 
+
+### TFRPM tachometer sensor
+
+[TFRPM01](https://github.com/ThunderFly-aerospace/TFRPM01)
 
 ![TFI2CADT01A using multiple sensors](/doc/img/TFI2CADT01_multi_TFRPM01.jpg)
 
 
-### TFRPM tachometer sensor
-
-
 ### TFSLOT airspeed sensor
 
+[TFSLOT01](https://github.com/ThunderFly-aerospace/TFSLOT01)
 
-### TFHT hygrometr
+### TFHT hygrometer sensor
+
+[TFHT01](https://github.com/ThunderFly-aerospace/TFHT01)
 
 
