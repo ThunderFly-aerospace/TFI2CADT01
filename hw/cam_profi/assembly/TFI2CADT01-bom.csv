@@ -8,7 +8,7 @@ Row,Description,Part,References,Value,Footprint,Quantity Per PCB,Status,Datashee
 7,,HOLE_TF,M1 M2 M3 M4 M5 M6,HOLE,dira_3mm,6, ,,
 8,Resistor,R,R1 R8,180R,R_0603_1608Metric,2, ,,5c70984512875079b91f8957
 9,Resistor,R,R2 R3 R5 R6 R16 R17,10k,R_0603_1608Metric,6, ,,5c70984512875079b91f8962
-10,Resistor,R,R9 R13 R14,887k,R_0603_1608Metric,3, ,,61e02cad2eac0c9aef5c894c
+10,Resistor,R,R9 R13 R14,887k,R_0603_1608Metric,3, ,,6272c899dc56076e9a222bfe
 11,Resistor,R,R10 R12 R15,1M,R_0603_1608Metric,3, ,,61e030ee2eac0c9aef5c8995
 12,Resistor,R,R7,-,R_0603_1608Metric,1, ,,
 13,"Dual I2C/SMBus Address-Translator, DFN-16",LTC4317,U2,LTC4317,DFN-16-1EP_3x5mm_P0.5mm_EP1.66x4.4mm,1, ,https://www.analog.com/media/en/technical-documentation/data-sheets/4317fa.pdf,61e031592eac0c9aef5c89ad
