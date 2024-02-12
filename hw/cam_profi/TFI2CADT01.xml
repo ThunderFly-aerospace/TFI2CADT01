@@ -2,8 +2,8 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/TFI2CADT01.kicad_sch</source>
-    <date>Mon Oct  2 10:34:19 2023</date>
-    <tool>Eeschema 7.0.7-7.0.7~ubuntu23.04.1</tool>
+    <date>Mon Feb 12 20:34:50 2024</date>
+    <tool>Eeschema 7.0.10-7.0.10~ubuntu23.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>TFI2CEXT01A</title>
@@ -218,6 +218,7 @@
       <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFI2CADT01.kicad_sch"/>
+      <property name="exclude_from_bom"/>
       <property name="ki_description" value="Solder Jumper, 2-pole, open"/>
       <property name="ki_keywords" value="solder jumper SPST"/>
       <sheetpath names="/" tstamps="/"/>
@@ -229,6 +230,7 @@
       <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFI2CADT01.kicad_sch"/>
+      <property name="exclude_from_bom"/>
       <property name="ki_description" value="Solder Jumper, 2-pole, open"/>
       <property name="ki_keywords" value="solder jumper SPST"/>
       <sheetpath names="/" tstamps="/"/>
@@ -240,6 +242,7 @@
       <libsource lib="MLAB_MECHANICAL" part="HOLE_TF" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFI2CADT01.kicad_sch"/>
+      <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="HOLE, X, M"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>99d533fb-9d70-48e2-8fd6-c2f3a8e6e539</tstamps>
@@ -250,6 +253,7 @@
       <libsource lib="MLAB_MECHANICAL" part="HOLE_TF" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFI2CADT01.kicad_sch"/>
+      <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="HOLE, X, M"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>5772f8cf-ad63-4406-98f0-cba007b77f95</tstamps>
@@ -260,6 +264,7 @@
       <libsource lib="MLAB_MECHANICAL" part="HOLE_TF" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFI2CADT01.kicad_sch"/>
+      <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="HOLE, X, M"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>274711c1-bbe2-42ee-96d7-8e3e40bc8d5d</tstamps>
@@ -270,6 +275,7 @@
       <libsource lib="MLAB_MECHANICAL" part="HOLE_TF" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFI2CADT01.kicad_sch"/>
+      <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="HOLE, X, M"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>21d93760-b684-44de-bfcd-0dfe3feb2abe</tstamps>
@@ -280,6 +286,7 @@
       <libsource lib="MLAB_MECHANICAL" part="HOLE_TF" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFI2CADT01.kicad_sch"/>
+      <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="HOLE, X, M"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>dcef6574-268c-4858-9322-b68348606397</tstamps>
@@ -290,6 +297,7 @@
       <libsource lib="MLAB_MECHANICAL" part="HOLE_TF" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFI2CADT01.kicad_sch"/>
+      <property name="exclude_from_bom"/>
       <property name="ki_keywords" value="HOLE, X, M"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>19b0d29d-d7c2-446e-a8fb-72bf37c91050</tstamps>

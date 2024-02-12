@@ -5,14 +5,13 @@ Row,Description,Part,References,Value,Footprint,Quantity Per PCB,Status,Datashee
 4,,D_ZENER,D2,BZX585-B5V6.115,D_SOD-523,1, ,,60879d38128750769ee58e48
 5,Light emitting diode,LED,D1,LED GREEN,LED_0603_1608Metric,1, ,,60d582331287500165f859d0
 6,,SM04B-GHS-TB,J1 J2 J3 J4 J5 J6,SM04B-GHS-TB,JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal,6, ,,5c86273d1287500b4e0280be
-7,,HOLE_TF,M1 M2 M3 M4 M5 M6,HOLE,dira_3mm,6, ,,
-8,Resistor,R,R1 R8,180R,R_0603_1608Metric,2, ,,5c70984512875079b91f8957
-9,Resistor,R,R2 R3 R5 R6 R16 R17,10k,R_0603_1608Metric,6, ,,5c70984512875079b91f8962
-10,Resistor,R,R9 R13 R14,887k,R_0603_1608Metric,3, ,,6272c899dc56076e9a222bfe
-11,Resistor,R,R10 R12 R15,1M,R_0603_1608Metric,3, ,,61e030ee2eac0c9aef5c8995
-12,Resistor,R,R7,-,R_0603_1608Metric,1, ,,
-13,"Dual I2C/SMBus Address-Translator, DFN-16",LTC4317,U2,LTC4317,DFN-16-1EP_3x5mm_P0.5mm_EP1.66x4.4mm,1, ,https://www.analog.com/media/en/technical-documentation/data-sheets/4317fa.pdf,61e031592eac0c9aef5c89ad
-14,"300mA Low-dropout Voltage Regulator, Vout 3.3V, Vin up to 5.5V, SOT-23",MIC5504-3.3YM5,U1,MIC5504-3.3YM5,SOT-23-5,1, ,http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf,5c7255e81287500b4e112ea2
+7,Resistor,R,R1 R8,180R,R_0603_1608Metric,2, ,,5c70984512875079b91f8957
+8,Resistor,R,R2 R3 R5 R6 R16 R17,10k,R_0603_1608Metric,6, ,,5c70984512875079b91f8962
+9,Resistor,R,R9 R13 R14,887k,R_0603_1608Metric,3, ,,6272c899dc56076e9a222bfe
+10,Resistor,R,R10 R12 R15,1M,R_0603_1608Metric,3, ,,61e030ee2eac0c9aef5c8995
+11,Resistor,R,R7,-,R_0603_1608Metric,1, ,,
+12,"Dual I2C/SMBus Address-Translator, DFN-16",LTC4317,U2,LTC4317,DFN-16-1EP_3x5mm_P0.5mm_EP1.66x4.4mm,1, ,https://www.analog.com/media/en/technical-documentation/data-sheets/4317fa.pdf,61e031592eac0c9aef5c89ad
+13,"300mA Low-dropout Voltage Regulator, Vout 3.3V, Vin up to 5.5V, SOT-23",MIC5504-3.3YM5,U1,MIC5504-3.3YM5,SOT-23-5,1, ,http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf,5c7255e81287500b4e112ea2
 
 
 
@@ -23,10 +22,10 @@ Schematic:,TFI2CADT01
 Variant:,default
 Revision:,
 Date:,2021-04-05
-KiCad Version:,7.0.7-7.0.7~ubuntu23.04.1
+KiCad Version:,7.0.10-7.0.10~ubuntu23.04.1
 Statistics:
-Component Groups:,14
-Component Count:,35
-Fitted Components:,35
+Component Groups:,13
+Component Count:,29
+Fitted Components:,29
 Number of PCBs:,1
-Total Components:,35
+Total Components:,29
