@@ -3237,7 +3237,7 @@
   )
 
   (symbol (lib_id "Jumper:SolderJumper_2_Open") (at 130.81 146.685 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 15f78139-6d94-44b2-bfa9-7b1fafdf24a2)
     (property "Reference" "JP1" (at 130.81 143.2306 0)
       (effects (font (size 1.27 1.27)))
@@ -3263,7 +3263,7 @@
   )
 
   (symbol (lib_id "MLAB_MECHANICAL:HOLE_TF") (at 273.05 21.59 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 19b0d29d-d7c2-446e-a8fb-72bf37c91050)
     (property "Reference" "M6" (at 274.4471 20.2579 90)
       (effects (font (size 1.524 1.524)) (justify right))
@@ -3422,7 +3422,7 @@
   )
 
   (symbol (lib_id "MLAB_MECHANICAL:HOLE_TF") (at 255.27 21.59 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 21d93760-b684-44de-bfcd-0dfe3feb2abe)
     (property "Reference" "M4" (at 256.6671 20.2579 90)
       (effects (font (size 1.524 1.524)) (justify right))
@@ -3471,7 +3471,7 @@
   )
 
   (symbol (lib_id "MLAB_MECHANICAL:HOLE_TF") (at 246.38 21.59 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 274711c1-bbe2-42ee-96d7-8e3e40bc8d5d)
     (property "Reference" "M3" (at 247.7771 20.2579 90)
       (effects (font (size 1.524 1.524)) (justify right))
@@ -3545,7 +3545,7 @@
   )
 
   (symbol (lib_id "Jumper:SolderJumper_2_Open") (at 158.115 146.685 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4021e16a-2acc-4454-b438-9a04e709dc05)
     (property "Reference" "JP2" (at 158.115 143.2306 0)
       (effects (font (size 1.27 1.27)))
@@ -3786,7 +3786,7 @@
   )
 
   (symbol (lib_id "MLAB_MECHANICAL:HOLE_TF") (at 237.49 21.59 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5772f8cf-ad63-4406-98f0-cba007b77f95)
     (property "Reference" "M2" (at 238.8871 20.2579 90)
       (effects (font (size 1.524 1.524)) (justify right))
@@ -4173,7 +4173,7 @@
   )
 
   (symbol (lib_id "MLAB_MECHANICAL:HOLE_TF") (at 228.6 21.59 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 99d533fb-9d70-48e2-8fd6-c2f3a8e6e539)
     (property "Reference" "M1" (at 229.9971 20.2579 90)
       (effects (font (size 1.524 1.524)) (justify right))
@@ -4463,7 +4463,7 @@
   )
 
   (symbol (lib_id "MLAB_MECHANICAL:HOLE_TF") (at 264.16 21.59 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dcef6574-268c-4858-9322-b68348606397)
     (property "Reference" "M5" (at 265.5571 20.2579 90)
       (effects (font (size 1.524 1.524)) (justify right))
