@@ -41,7 +41,7 @@ Additional I2C cables for connecting to the autopilot are not included in the pa
 # Product changelog
 The product is gradually evolving and improving based on user requirements. Currently (as of 02/2024), the TFI2CADT01B revision is being shipped. In the development process, we keep backward compatibility, for example by keeping the same form factor or communication interface. The complete list of changes is in [releases](https://github.com/ThunderFly-aerospace/TFI2CADT01/releases).
  
-#### TFI2CADT01B 
- * Improved layout
+#### TFI2CADT01B - (from 2/2024)
+ * JST-GH connectors moved slightly into PCB contour to enhance protection of connector and improve soldering quality. 
 
-#### TFI2CADT01A - (from 12/2020)
+#### TFI2CADT01A - initial version
