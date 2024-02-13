@@ -27,7 +27,7 @@ The translator does not need a software configuration and from the point of view
 
 ### What’s included?
 
-- 1x TFI2CADT01A
+- 1x TFI2CADT01B
 - Optionally: 
    - [TFCABxxI2C01](https://github.com/ThunderFly-aerospace/TFCAB01) Silicone I2C cable with JST-GH connectors
 
@@ -37,3 +37,11 @@ The translator does not need a software configuration and from the point of view
 Additional I2C cables for connecting to the autopilot are not included in the package. You must purchase the additional cables separately from our [tindie catalog](https://www.tindie.com/stores/thunderfly/). We offer high-quality cables that are compatible with the [Pixhawk standard](https://raw.githubusercontent.com/pixhawk/Pixhawk-Standards/master/DS-009%20Pixhawk%20Connector%20Standard.pdf) and with a [ThunderFly color](https://docs.px4.io/main/en/assembly/cable_wiring.html#i2c-cables) scheme for easy signal identification. Our cables are specifically designed with improved resistance to electromagnetic interference and a silicone insulator that makes them highly flexible.
 
   * [TFCABxxI2C01 products](https://www.tindie.com/products/30113/)
+
+# Product changelog
+The product is gradually evolving and improving based on user requirements. Currently (as of 02/2024), the TFI2CADT01B revision is being shipped. In the development process, we keep backward compatibility, for example by keeping the same form factor or communication interface. The complete list of changes is in [releases](https://github.com/ThunderFly-aerospace/TFI2CADT01/releases).
+ 
+#### TFI2CADT01B 
+ * Improved layout
+
+#### TFI2CADT01A - (from 12/2020)
