@@ -1,5 +1,3 @@
-View this project on [CADLAB.io](https://cadlab.io/project/27746). 
-
 # TFI2CADT01 - I²C address translator
 
 TFI2CADT01 is I2C device address changer. This function allows you to connect multiple I2C devices with the same address to one master device at the same bus.
@@ -25,7 +23,7 @@ The called address of slave device is translated by a logical operation [XOR](ht
 
 Default address translation is listed in following table.
 
-| Port | Solder jumper | XOR value (in hex) | XOR value in binary form | 
+| Port | Solder jumper | XOR value (in hex) | XOR value in binary form |
 |---|---|---|---|
 | 1 | Disconnected | 0x08 | 0b0001000 |
 | 1 | Soldered     | 0x0f | 0b0001111 |
@@ -34,25 +32,27 @@ Default address translation is listed in following table.
 
 ### Determining the new address of the I2C device
 
-The new device address which should be called by master could be calculated easily. Just take the the original device address and do an XOR with the TFI2CADT01 port address.  The result is the new device address. For example, you can use an [online calculator](https://xor.pw/). 
+The new device address which should be called by master could be calculated easily. Just take the the original device address and do an XOR with the TFI2CADT01 port address.  The result is the new device address. For example, you can use an [online calculator](https://xor.pw/).
 
 ## Example of usage
 
-The TFI2CADT01 could be used with a wide variety od ThunderFly or Pixhawk I²C sensors, here are few examples. 
+The TFI2CADT01 could be used with a wide variety od ThunderFly or Pixhawk I²C sensors, here are few examples.
 
 ### TFRPM tachometer sensor
 
-[TFRPM01](https://github.com/ThunderFly-aerospace/TFRPM01)
+The TFI2CADT01 could be easily used to connection of multiple [TFRPM01](https://github.com/ThunderFly-aerospace/TFRPM01) sensors, which is especially useful of multi-rotor airframes.
 
-![TFI2CADT01A using multiple sensors](/doc/img/TFI2CADT01_multi_TFRPM01.jpg)
-
+![TFI2CADT01A using multiple TFRPM01 sensors](/doc/img/TFI2CADT01_multi_TFRPM01.jpg)
 
 ### TFSLOT airspeed sensor
 
-[TFSLOT01](https://github.com/ThunderFly-aerospace/TFSLOT01)
+The TFI2CADT01 could also fix troubles with connection of multiple [TFSLOT01](https://github.com/ThunderFly-aerospace/TFSLOT01) airspeed sensors to one bus. That could increase the redundancy, in situation where failure of sensor is more probable than failure of the bus itself.
+
+![TFSLOT  airspeed sensor](https://raw.githubusercontent.com/ThunderFly-aerospace/TFSLOT01/TFSLOT01A/doc/img/TFSLOT_1_small.jpg)
+
 
 ### TFHT hygrometer sensor
 
-[TFHT01](https://github.com/ThunderFly-aerospace/TFHT01)
+[TFHT01](https://github.com/ThunderFly-aerospace/TFHT01) connected by use of TFI2CADT01 allows measuring of temperature and humidity by multiple sensors at once.
 
-
+![TFHT01](https://raw.githubusercontent.com/ThunderFly-aerospace/TFHT01/TFHT01B/doc/img/TFHT01A2.jpg)
