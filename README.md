@@ -17,7 +17,7 @@ ThunderFly I2C address translator is commercially available from [ThunderFly s.r
 
 ## Translation function
 
-The called address of the slave device is translated by a logical operation [XOR](https://en.wikipedia.org/wiki/Bitwise_operation#XOR) with the address bits configured in the TFI2CADT01 module. Each TFI2CADT01 port has a different default address. The address of each port can be changed independently by soldering a solder jumper.
+The called address of the slave device is translated by a logical operation [XOR](https://en.wikipedia.org/wiki/Bitwise_operation#XOR) with the address bits configured in the TFI2CADT01 module. Each TFI2CADT01 port has a different default address. The address of each port can be changed independently by soldering solder jumpers JP1 and JP2.
 
 ## Configuration
 
@@ -25,14 +25,14 @@ The default address translation is listed in the following table.
 
 | Port | Solder jumper | XOR value (in hex) | XOR value in binary form |
 |---|---|---|---|
-| 1 | Disconnected | 0x08 | 0b0001000 |
+| 1 | Disconnected (default) | 0x08 | 0b0001000 |
 | 1 | Soldered     | 0x0f | 0b0001111 |
-| 2 | Disconnected | 0x78 | 0b1111000 |
+| 2 | Disconnected (default) | 0x78 | 0b1111000 |
 | 2 | Soldered     | 0x7f | 0b1111111 |
 
 ### Determining the new address of the I2C device
 
-The new device address which should be called by master could be calculated easily. Just take the original device address and do an XOR with the TFI2CADT01 port address.  The result is the new device address. For example, you can use an [online calculator](https://xor.pw/).
+The new device address which should be called by the master could be calculated by doing XOR with the TFI2CADT01 port address and original device address.  The result is the new device address. You can use an [online calculator](https://xor.pw/) to do that. Another approach is determining the new address heuristically by use of the `i2cdetect` command or similar. 
 
 ## Example of usage
 
