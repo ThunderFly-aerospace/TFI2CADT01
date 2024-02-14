@@ -38,22 +38,22 @@ The new device address which should be called by master could be calculated easi
 
 The TFI2CADT01 could be used with a wide variety of ThunderFly or Pixhawk I²C sensors, here are a few examples.
 
-### TFRPM tachometer sensor
+### Tachometer (RPM) sensors
 
-The TFI2CADT01 could be easily used for the connection of multiple [TFRPM01](https://github.com/ThunderFly-aerospace/TFRPM01) sensors, which is especially useful for multi-rotor airframes.
+The TFI2CADT01 could be easily used for the connection of multiple [TFRPM01 tachometer](https://github.com/ThunderFly-aerospace/TFRPM01) sensors, which is especially useful for multi-rotor airframes.
 
 ![TFI2CADT01A using multiple TFRPM01 sensors](/doc/img/TFI2CADT01_multi_TFRPM01.jpg)
 
-### TFSLOT airspeed sensor
+### Redundant airspeed sensors
 
-The TFI2CADT01 could also fix troubles with the connection of multiple [TFSLOT01](https://github.com/ThunderFly-aerospace/TFSLOT01) airspeed sensors to one bus. That could increase the redundancy, in situations where a failure of the sensor is more probable than failure of the bus itself.
+The TFI2CADT01 could also fix troubles with the connection of multiple [TFSLOT01 airspeed sensors](https://github.com/ThunderFly-aerospace/TFSLOT01) to one bus. It could be used even for other I2C-based airspeed sensors. That could increase the redundancy, in situations where a failure of the sensor is more probable than failure of the bus itself.
 
 ![TFSLOT  airspeed sensor](https://raw.githubusercontent.com/ThunderFly-aerospace/TFSLOT01/TFSLOT01A/doc/img/TFSLOT_1_small.jpg)
 
 
-### TFHT hygrometer sensor
+### Temperature and hygrometer sensors
 
-[TFHT01](https://github.com/ThunderFly-aerospace/TFHT01) connected by use of TFI2CADT01 allows measuring of temperature and humidity by multiple sensors at once.
+For example the [TFHT01](https://github.com/ThunderFly-aerospace/TFHT01) connected by use of TFI2CADT01 allows measuring of temperature and humidity by multiple airframe locations at once.
 
 ![TFHT01](https://raw.githubusercontent.com/ThunderFly-aerospace/TFHT01/TFHT01B/doc/img/TFHT01A2.jpg)
 
