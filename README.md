@@ -8,16 +8,15 @@ That is a common problem in case multiple I2C sensors with the same address (or 
 The module is based on [LTC4317](https://www.analog.com/media/en/technical-documentation/data-sheets/4317fa.pdf) I2C address translator IC.
 The module is designed and optimized for use on Pixhawk-compatible drones, especially UAVs. The design of the module is compatible with the [dronecode connectors standard](https://github.com/pixhawk/Pixhawk-Standards/blob/master/DS-009%20Pixhawk%20Connector%20Standard.pdf).
 
-
-
 ## Where to get it?
 
 ThunderFly I2C address translator is commercially available from [ThunderFly s.r.o.](https://www.thunderfly.cz/), write an email to info@thunderfly.cz or shop at [Tindie store](https://www.tindie.com/products/thunderfly/tfi2cadt01-i2c-address-translator/).
 
-
 ## Translation function
 
 The called address of the slave device is translated by a logical operation [XOR](https://en.wikipedia.org/wiki/Bitwise_operation#XOR) with the address bits configured in the TFI2CADT01 module. Each TFI2CADT01 port has a different default address. The address of each port can be changed independently by soldering solder jumpers JP1 and JP2.
+
+NOTE: The TFI2CADT01 is not an I2C buffer, therefore the quality of input bits affects its function, and also corrupted data on input are propagated on the output. The address translator does XOR with the input address clocked in. To avoid related issues with bus data integrity we strongly recommend using ThunderFly's [TFCABI2C cables](https://github.com/ThunderFly-aerospace/TFCAB01) which minimizes SDA/SCL crosstalks. In some cases, where the I2C network has a significant length or number of nodes the use of [TFI2CEXT01](https://github.com/ThunderFly-aerospace/TFI2CEXT01), that is I2C extender with buffer function. 
 
 ## Configuration
 
