@@ -29,6 +29,8 @@ The default address translation is listed in the following table.
 | 2 | Disconnected (default) | 0x78 | 0b1111000 |
 | 2 | Soldered     | 0x7f | 0b1111111 |
 
+The connectors on the top side and the unpopulated connector on the bottom side are identical. There is no address difference between them. That should be used to split the bus to other sensors.
+
 ### Determining the new address of the I2C device
 
 The new device address which should be called by the master could be calculated by doing XOR with the TFI2CADT01 port address and original device address.  The result is the new device address. You can use an [online calculator](https://xor.pw/) to do that. Another approach is determining the new address heuristically by use of the `i2cdetect` command or similar. 
