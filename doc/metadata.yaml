@@ -1,0 +1,25 @@
+description: I2C address translator module, allows connection of multiple I2C devices
+  with the same address to one bus.
+github_branch: TFI2CADT01A
+github_repo: TFI2CADT01
+github_url: https://github.com/ThunderFly-aerospace/TFI2CADT01
+homepage: false
+images:
+- doc/img/TFI2CADT01A_big_top.jpg
+- doc/img/TFI2CADT01A_img.jpg
+- doc/img/TFI2CADT01A_booth_sides.jpg
+- doc/img/TFI2CADT01_multi_TFRPM01.jpg
+- doc/img/TFI2CADT01A_big_bot.jpg
+- doc/gen/img/pcb/TFI2CADT01A-bottom.png
+- doc/gen/img/pcb/TFI2CADT01A-top.png
+- doc/gen/TFI2CADT01A-schematic.svg
+mark: 50
+mod_scheme: doc/gen/TFI2CADT01A-schematic.pdf
+tags:
+- i2c
+- i2c-bus
+- i2c-sensors
+- i2c-device
+- i2c-address
+- i2c-adapters
+title: TFI2CADT01

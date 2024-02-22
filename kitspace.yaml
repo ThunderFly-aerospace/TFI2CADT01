@@ -1,0 +1,9 @@
+bom: hw/sch_pcb/TFI2CADT01.kicad_pcb
+color: white
+eda:
+  pcb: hw/sch_pcb/TFI2CADT01.kicad_pcb
+  type: kicad
+gerbers: hw/cam_profi/
+site: https://github.com/ThunderFly-aerospace/TFI2CADT01
+summary: I2C address translator module, allows connection of multiple I2C devices
+  with the same address to one bus.
