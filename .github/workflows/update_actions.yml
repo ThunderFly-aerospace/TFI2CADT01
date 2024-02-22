@@ -1,4 +1,4 @@
-name: Update actions and assets repository
+Pname: Update actions and assets repository
 on:
   schedule:
   - cron: "0 */24 * * *"
@@ -17,7 +17,7 @@ jobs:
       - uses: actions/checkout@v3
         with:
           submodules: recursive
-          token: ${{ secrets.pat }}
+          token: ${{ secrets.PAT }}
           ref: ${{ github.head_ref }}
           
       - name: Update submodules
