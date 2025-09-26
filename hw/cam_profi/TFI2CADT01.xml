@@ -2,17 +2,17 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/TFI2CADT01.kicad_sch</source>
-    <date>Wed Feb 14 19:13:10 2024</date>
-    <tool>Eeschema 7.0.10-7.0.10~ubuntu23.04.1</tool>
+    <date>2025-09-26T18:42:13+0000</date>
+    <tool>Eeschema 9.0.1+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
-        <title>TFI2CEXT01A</title>
+        <title>TFI2CADT01B</title>
         <company>ThunderFly s.r.o.</company>
         <rev/>
-        <date>2021-04-05</date>
+        <date>2025-09-26</date>
         <source>TFI2CADT01.kicad_sch</source>
-        <comment number="1" value="I2C address translator"/>
-        <comment number="2" value="Jacho  &lt;info@thunderfly.cz&gt;"/>
+        <comment number="1" value="I2C address translator with\nmultiple translation options"/>
+        <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
         <comment number="5" value=""/>
@@ -28,15 +28,19 @@
       <value>10uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
+        <field name="UST_id"/>
         <field name="UST_ID">5c70984812875079b91f8bbd</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="UST_id" value=""/>
       <property name="UST_ID" value="5c70984812875079b91f8bbd"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFI2CADT01.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor"/>
       <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-000059ffc6a8</tstamps>
     </comp>
@@ -44,15 +48,19 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
+        <field name="UST_id"/>
         <field name="UST_ID">5c70984812875079b91f8bf2</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="UST_id" value=""/>
       <property name="UST_ID" value="5c70984812875079b91f8bf2"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFI2CADT01.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor"/>
       <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005562302c</tstamps>
     </comp>
@@ -60,15 +68,19 @@
       <value>1uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
+        <field name="UST_id"/>
         <field name="UST_ID">5c70984812875079b91f8bc2</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="UST_id" value=""/>
       <property name="UST_ID" value="5c70984812875079b91f8bc2"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFI2CADT01.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor"/>
       <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005debf498</tstamps>
     </comp>
@@ -76,15 +88,19 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
+        <field name="UST_id"/>
         <field name="UST_ID">5c70984812875079b91f8bf2</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="UST_id" value=""/>
       <property name="UST_ID" value="5c70984812875079b91f8bf2"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFI2CADT01.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor"/>
       <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005deabd1a</tstamps>
     </comp>
@@ -92,15 +108,19 @@
       <value>LED GREEN</value>
       <footprint>LED_SMD:LED_0603_1608Metric</footprint>
       <fields>
+        <field name="UST_id"/>
         <field name="UST_ID">60d582331287500165f859d0</field>
+        <field name="Footprint">LED_SMD:LED_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="UST_id" value=""/>
       <property name="UST_ID" value="60d582331287500165f859d0"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFI2CADT01.kicad_sch"/>
-      <property name="ki_description" value="Light emitting diode"/>
       <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>883fa0fd-0c71-4aac-968d-b0ac29a9889b</tstamps>
     </comp>
@@ -108,20 +128,30 @@
       <value>BZX585-B5V6.115</value>
       <footprint>Diode_SMD:D_SOD-523</footprint>
       <fields>
+        <field name="UST_id"/>
         <field name="UST_ID">60879d38128750769ee58e48</field>
+        <field name="Footprint">Diode_SMD:D_SOD-523</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="MLAB_D" part="D_ZENER" description=""/>
       <property name="UST_id" value=""/>
       <property name="UST_ID" value="60879d38128750769ee58e48"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFI2CADT01.kicad_sch"/>
+      <property name="ki_fp_filters" value="D? SO* SM*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-000059ffcb7d</tstamps>
     </comp>
     <comp ref="G1">
       <value>LOGO</value>
       <footprint>MLAB_LOGA:TF 10x4,7</footprint>
-      <libsource lib="MLAB_TF_LOGO" part="LOGO" description=""/>
+      <fields>
+        <field name="Footprint">MLAB_LOGA:TF 10x4,7</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="TF_LOGO" part="LOGO" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFI2CADT01.kicad_sch"/>
       <property name="exclude_from_bom"/>
@@ -132,7 +162,11 @@
       <value>SM04B-GHS-TB</value>
       <footprint>Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal</footprint>
       <fields>
+        <field name="UST_id"/>
         <field name="UST_ID">5c86273d1287500b4e0280be</field>
+        <field name="Footprint">Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="MLAB_CONNECTORS_JST" part="SM04B-GHS-TB" description=""/>
       <property name="UST_id" value=""/>
@@ -146,7 +180,11 @@
       <value>SM04B-GHS-TB</value>
       <footprint>Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal</footprint>
       <fields>
+        <field name="UST_id"/>
         <field name="UST_ID">5c86273d1287500b4e0280be</field>
+        <field name="Footprint">Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="MLAB_CONNECTORS_JST" part="SM04B-GHS-TB" description=""/>
       <property name="UST_id" value=""/>
@@ -160,7 +198,11 @@
       <value>SM04B-GHS-TB</value>
       <footprint>Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal</footprint>
       <fields>
+        <field name="UST_id"/>
         <field name="UST_ID">5c86273d1287500b4e0280be</field>
+        <field name="Footprint">Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="MLAB_CONNECTORS_JST" part="SM04B-GHS-TB" description=""/>
       <property name="UST_id" value=""/>
@@ -174,7 +216,11 @@
       <value>SM04B-GHS-TB</value>
       <footprint>Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal</footprint>
       <fields>
+        <field name="UST_id"/>
         <field name="UST_ID">5c86273d1287500b4e0280be</field>
+        <field name="Footprint">Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="MLAB_CONNECTORS_JST" part="SM04B-GHS-TB" description=""/>
       <property name="UST_id" value=""/>
@@ -188,7 +234,11 @@
       <value>SM04B-GHS-TB</value>
       <footprint>Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal</footprint>
       <fields>
+        <field name="UST_id"/>
         <field name="UST_ID">5c86273d1287500b4e0280be</field>
+        <field name="Footprint">Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="MLAB_CONNECTORS_JST" part="SM04B-GHS-TB" description=""/>
       <property name="UST_id" value=""/>
@@ -202,7 +252,11 @@
       <value>SM04B-GHS-TB</value>
       <footprint>Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal</footprint>
       <fields>
+        <field name="UST_id"/>
         <field name="UST_ID">5c86273d1287500b4e0280be</field>
+        <field name="Footprint">Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="MLAB_CONNECTORS_JST" part="SM04B-GHS-TB" description=""/>
       <property name="UST_id" value=""/>
@@ -215,30 +269,45 @@
     <comp ref="JP1">
       <value>SolderJumper_2_Open</value>
       <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <fields>
+        <field name="Footprint">Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFI2CADT01.kicad_sch"/>
       <property name="exclude_from_bom"/>
-      <property name="ki_description" value="Solder Jumper, 2-pole, open"/>
       <property name="ki_keywords" value="solder jumper SPST"/>
+      <property name="ki_fp_filters" value="SolderJumper*Open*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>15f78139-6d94-44b2-bfa9-7b1fafdf24a2</tstamps>
     </comp>
     <comp ref="JP2">
       <value>SolderJumper_2_Open</value>
       <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <fields>
+        <field name="Footprint">Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFI2CADT01.kicad_sch"/>
       <property name="exclude_from_bom"/>
-      <property name="ki_description" value="Solder Jumper, 2-pole, open"/>
       <property name="ki_keywords" value="solder jumper SPST"/>
+      <property name="ki_fp_filters" value="SolderJumper*Open*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>4021e16a-2acc-4454-b438-9a04e709dc05</tstamps>
     </comp>
     <comp ref="M1">
       <value>HOLE</value>
       <footprint>Mlab_Mechanical:dira_3mm</footprint>
+      <fields>
+        <field name="Footprint">Mlab_Mechanical:dira_3mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="MLAB_MECHANICAL" part="HOLE_TF" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFI2CADT01.kicad_sch"/>
@@ -250,6 +319,11 @@
     <comp ref="M2">
       <value>HOLE</value>
       <footprint>Mlab_Mechanical:dira_3mm</footprint>
+      <fields>
+        <field name="Footprint">Mlab_Mechanical:dira_3mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="MLAB_MECHANICAL" part="HOLE_TF" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFI2CADT01.kicad_sch"/>
@@ -261,6 +335,11 @@
     <comp ref="M3">
       <value>HOLE</value>
       <footprint>Mlab_Mechanical:dira_3mm</footprint>
+      <fields>
+        <field name="Footprint">Mlab_Mechanical:dira_3mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="MLAB_MECHANICAL" part="HOLE_TF" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFI2CADT01.kicad_sch"/>
@@ -272,6 +351,11 @@
     <comp ref="M4">
       <value>HOLE</value>
       <footprint>Mlab_Mechanical:dira_3mm</footprint>
+      <fields>
+        <field name="Footprint">Mlab_Mechanical:dira_3mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="MLAB_MECHANICAL" part="HOLE_TF" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFI2CADT01.kicad_sch"/>
@@ -283,6 +367,11 @@
     <comp ref="M5">
       <value>HOLE</value>
       <footprint>Mlab_Mechanical:dira_3mm</footprint>
+      <fields>
+        <field name="Footprint">Mlab_Mechanical:dira_3mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="MLAB_MECHANICAL" part="HOLE_TF" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFI2CADT01.kicad_sch"/>
@@ -294,6 +383,11 @@
     <comp ref="M6">
       <value>HOLE</value>
       <footprint>Mlab_Mechanical:dira_3mm</footprint>
+      <fields>
+        <field name="Footprint">Mlab_Mechanical:dira_3mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="MLAB_MECHANICAL" part="HOLE_TF" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFI2CADT01.kicad_sch"/>
@@ -306,15 +400,19 @@
       <value>180R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
+        <field name="UST_id"/>
         <field name="UST_ID">5c70984512875079b91f8957</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_id" value=""/>
       <property name="UST_ID" value="5c70984512875079b91f8957"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFI2CADT01.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>d6f125ac-9f23-4a8a-8f1d-fc20a4cd2a4a</tstamps>
     </comp>
@@ -322,15 +420,19 @@
       <value>10k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
+        <field name="UST_id"/>
         <field name="UST_ID">5c70984512875079b91f8962</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_id" value=""/>
       <property name="UST_ID" value="5c70984512875079b91f8962"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFI2CADT01.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>8b1e931c-dfe2-4849-9988-8c7a6d35987e</tstamps>
     </comp>
@@ -338,15 +440,19 @@
       <value>10k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
+        <field name="UST_id"/>
         <field name="UST_ID">5c70984512875079b91f8962</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_id" value=""/>
       <property name="UST_ID" value="5c70984512875079b91f8962"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFI2CADT01.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>92f8fd5e-1d33-470c-87b7-f7521ec796aa</tstamps>
     </comp>
@@ -354,15 +460,19 @@
       <value>10k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
+        <field name="UST_id"/>
         <field name="UST_ID">5c70984512875079b91f8962</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_id" value=""/>
       <property name="UST_ID" value="5c70984512875079b91f8962"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFI2CADT01.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-000059ffb1aa</tstamps>
     </comp>
@@ -370,28 +480,39 @@
       <value>10k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
+        <field name="UST_id"/>
         <field name="UST_ID">5c70984512875079b91f8962</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_id" value=""/>
       <property name="UST_ID" value="5c70984512875079b91f8962"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFI2CADT01.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-000059ffb143</tstamps>
     </comp>
     <comp ref="R7">
       <value>-</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="UST_id"/>
+        <field name="UST_ID"/>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_id" value=""/>
       <property name="UST_ID" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFI2CADT01.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>ffaa889d-94f7-457c-bd22-177342aa4d78</tstamps>
     </comp>
@@ -399,15 +520,19 @@
       <value>180R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
+        <field name="UST_id"/>
         <field name="UST_ID">5c70984512875079b91f8957</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_id" value=""/>
       <property name="UST_ID" value="5c70984512875079b91f8957"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFI2CADT01.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>49101020-5b89-404e-a818-762e531e2169</tstamps>
     </comp>
@@ -415,15 +540,19 @@
       <value>887k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
+        <field name="UST_id"/>
         <field name="UST_ID">6272c899dc56076e9a222bfe</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_id" value=""/>
       <property name="UST_ID" value="6272c899dc56076e9a222bfe"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFI2CADT01.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>01ae81ad-50a2-4d33-8ea0-fd3d98098a5e</tstamps>
     </comp>
@@ -431,15 +560,19 @@
       <value>1M</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
+        <field name="UST_id"/>
         <field name="UST_ID">61e030ee2eac0c9aef5c8995</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_id" value=""/>
       <property name="UST_ID" value="61e030ee2eac0c9aef5c8995"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFI2CADT01.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>ecd17538-5422-4aa3-9951-3654d3d4054e</tstamps>
     </comp>
@@ -447,15 +580,19 @@
       <value>1M</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
+        <field name="UST_id"/>
         <field name="UST_ID">61e030ee2eac0c9aef5c8995</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_id" value=""/>
       <property name="UST_ID" value="61e030ee2eac0c9aef5c8995"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFI2CADT01.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>4cfea622-e15b-484a-a2aa-621961cf6026</tstamps>
     </comp>
@@ -463,15 +600,19 @@
       <value>887k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
+        <field name="UST_id"/>
         <field name="UST_ID">6272c899dc56076e9a222bfe</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_id" value=""/>
       <property name="UST_ID" value="6272c899dc56076e9a222bfe"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFI2CADT01.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>e522d3ba-c528-466d-97f7-febc1fe1663f</tstamps>
     </comp>
@@ -479,15 +620,19 @@
       <value>887k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
+        <field name="UST_id"/>
         <field name="UST_ID">6272c899dc56076e9a222bfe</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_id" value=""/>
       <property name="UST_ID" value="6272c899dc56076e9a222bfe"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFI2CADT01.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>db48279d-f3af-438d-891d-e72e0d939e89</tstamps>
     </comp>
@@ -495,15 +640,19 @@
       <value>1M</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
+        <field name="UST_id"/>
         <field name="UST_ID">61e030ee2eac0c9aef5c8995</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_id" value=""/>
       <property name="UST_ID" value="61e030ee2eac0c9aef5c8995"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFI2CADT01.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>86b38308-399a-4eb9-a6e3-0c0877bb895d</tstamps>
     </comp>
@@ -511,15 +660,19 @@
       <value>10k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
+        <field name="UST_id"/>
         <field name="UST_ID">5c70984512875079b91f8962</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_id" value=""/>
       <property name="UST_ID" value="5c70984512875079b91f8962"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFI2CADT01.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>43ce42b6-a880-44a0-8a19-c9566c2913ff</tstamps>
     </comp>
@@ -527,15 +680,19 @@
       <value>10k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
+        <field name="UST_id"/>
         <field name="UST_ID">5c70984512875079b91f8962</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="UST_id" value=""/>
       <property name="UST_ID" value="5c70984512875079b91f8962"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFI2CADT01.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>d118c8bc-4590-421e-8666-81cbfb59aca6</tstamps>
     </comp>
@@ -544,15 +701,19 @@
       <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
       <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf</datasheet>
       <fields>
+        <field name="UST_id"/>
         <field name="UST_ID">5c7255e81287500b4e112ea2</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf</field>
+        <field name="Description"/>
       </fields>
       <libsource lib="Regulator_Linear" part="MIC5504-3.3YM5" description="300mA Low-dropout Voltage Regulator, Vout 3.3V, Vin up to 5.5V, SOT-23"/>
       <property name="UST_id" value=""/>
       <property name="UST_ID" value="5c7255e81287500b4e112ea2"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFI2CADT01.kicad_sch"/>
-      <property name="ki_description" value="300mA Low-dropout Voltage Regulator, Vout 3.3V, Vin up to 5.5V, SOT-23"/>
       <property name="ki_keywords" value="Micrel LDO voltage regulator"/>
+      <property name="ki_fp_filters" value="SOT?23?5*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005de928cf</tstamps>
     </comp>
@@ -562,13 +723,16 @@
       <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/4317fa.pdf</datasheet>
       <fields>
         <field name="UST_ID">61e031592eac0c9aef5c89ad</field>
+        <field name="Footprint">Package_DFN_QFN:DFN-16-1EP_3x5mm_P0.5mm_EP1.66x4.4mm</field>
+        <field name="Datasheet">https://www.analog.com/media/en/technical-documentation/data-sheets/4317fa.pdf</field>
+        <field name="Description"/>
       </fields>
       <libsource lib="Interface_Expansion" part="LTC4317" description="Dual I2C/SMBus Address-Translator, DFN-16"/>
       <property name="UST_ID" value="61e031592eac0c9aef5c89ad"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFI2CADT01.kicad_sch"/>
-      <property name="ki_description" value="Dual I2C/SMBus Address-Translator, DFN-16"/>
       <property name="ki_keywords" value="I2C Translator 4kV-ESD Level-Shifter Hot-Swap"/>
+      <property name="ki_fp_filters" value="DFN*1EP*3x5mm*P0.5mm*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>4a9cc567-a640-40ca-9d9a-e9babe5c48fb</tstamps>
     </comp>
@@ -583,7 +747,9 @@
       <fields>
         <field name="Reference">C</field>
         <field name="Value">C</field>
+        <field name="Footprint"/>
         <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
       </fields>
       <pins>
         <pin num="1" name="" type="passive"/>
@@ -601,7 +767,9 @@
       <fields>
         <field name="Reference">D</field>
         <field name="Value">LED</field>
+        <field name="Footprint"/>
         <field name="Datasheet">~</field>
+        <field name="Description">Light emitting diode</field>
       </fields>
       <pins>
         <pin num="1" name="K" type="passive"/>
@@ -617,7 +785,9 @@
       <fields>
         <field name="Reference">R</field>
         <field name="Value">R</field>
+        <field name="Footprint"/>
         <field name="Datasheet">~</field>
+        <field name="Description">Resistor</field>
       </fields>
       <pins>
         <pin num="1" name="" type="passive"/>
@@ -635,6 +805,7 @@
         <field name="Value">LTC4317</field>
         <field name="Footprint">Package_DFN_QFN:DFN-16-1EP_3x5mm_P0.5mm_EP1.66x4.4mm</field>
         <field name="Datasheet">https://www.analog.com/media/en/technical-documentation/data-sheets/4317fa.pdf</field>
+        <field name="Description">Dual I2C/SMBus Address-Translator, DFN-16</field>
       </fields>
       <pins>
         <pin num="1" name="GND" type="power_in"/>
@@ -665,7 +836,9 @@
       <fields>
         <field name="Reference">JP</field>
         <field name="Value">SolderJumper_2_Open</field>
+        <field name="Footprint"/>
         <field name="Datasheet">~</field>
+        <field name="Description">Solder Jumper, 2-pole, open</field>
       </fields>
       <pins>
         <pin num="1" name="A" type="passive"/>
@@ -677,6 +850,8 @@
         <field name="Reference">J</field>
         <field name="Value">SM04B-GHS-TB</field>
         <field name="Footprint">Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <pins>
         <pin num="1" name="" type="input"/>
@@ -695,6 +870,9 @@
       <fields>
         <field name="Reference">D</field>
         <field name="Value">D_ZENER</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
       <pins>
         <pin num="1" name="K" type="passive"/>
@@ -706,13 +884,8 @@
         <field name="Reference">M</field>
         <field name="Value">HOLE_TF</field>
         <field name="Footprint">Mlab_Mechanical:dira_3mm</field>
-      </fields>
-    </libpart>
-    <libpart lib="MLAB_TF_LOGO" part="LOGO">
-      <fields>
-        <field name="Reference">G</field>
-        <field name="Value">LOGO</field>
-        <field name="Footprint">MLAB_LOGA:TF 10x4,7</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
     </libpart>
     <libpart lib="Regulator_Linear" part="MIC5504-3.3YM5">
@@ -726,6 +899,7 @@
         <field name="Value">MIC5504-3.3YM5</field>
         <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
         <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf</field>
+        <field name="Description">300mA Low-dropout Voltage Regulator, Vout 3.3V, Vin up to 5.5V, SOT-23</field>
       </fields>
       <pins>
         <pin num="1" name="VIN" type="power_in"/>
@@ -734,6 +908,15 @@
         <pin num="4" name="NC" type="no_connect"/>
         <pin num="5" name="VOUT" type="power_out"/>
       </pins>
+    </libpart>
+    <libpart lib="TF_LOGO" part="LOGO">
+      <fields>
+        <field name="Reference">G</field>
+        <field name="Value">LOGO</field>
+        <field name="Footprint">MLAB_LOGA:TF 10x4,7</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
     </libpart>
   </libparts>
   <libraries>
@@ -751,7 +934,7 @@
     </library>
   </libraries>
   <nets>
-    <net code="1" name="+3V3">
+    <net code="1" name="+3V3" class="Default">
       <node ref="C3" pin="1" pintype="passive"/>
       <node ref="C4" pin="1" pintype="passive"/>
       <node ref="JP1" pin="2" pinfunction="B" pintype="passive"/>
@@ -771,7 +954,7 @@
       <node ref="U2" pin="7" pinfunction="VCC" pintype="power_in"/>
       <node ref="U2" pin="8" pinfunction="ENABLE1" pintype="input"/>
     </net>
-    <net code="2" name="+5V">
+    <net code="2" name="+5V" class="Default">
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="C2" pin="1" pintype="passive"/>
       <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
@@ -785,65 +968,65 @@
       <node ref="U1" pin="1" pinfunction="VIN" pintype="power_in"/>
       <node ref="U1" pin="3" pinfunction="EN" pintype="input"/>
     </net>
-    <net code="3" name="/SCLin">
+    <net code="3" name="/SCLin" class="Default">
       <node ref="J1" pin="2" pintype="input"/>
       <node ref="J2" pin="2" pintype="input"/>
       <node ref="R2" pin="2" pintype="passive"/>
       <node ref="U2" pin="15" pinfunction="SCLIN" pintype="input"/>
     </net>
-    <net code="4" name="/SCLout1">
+    <net code="4" name="/SCLout1" class="Default">
       <node ref="J3" pin="2" pintype="input"/>
       <node ref="J4" pin="2" pintype="input"/>
       <node ref="R5" pin="2" pintype="passive"/>
       <node ref="U2" pin="14" pinfunction="SCLOUT1" pintype="output"/>
     </net>
-    <net code="5" name="/SCLout2">
+    <net code="5" name="/SCLout2" class="Default">
       <node ref="J5" pin="2" pintype="input"/>
       <node ref="J6" pin="2" pintype="input"/>
       <node ref="R16" pin="2" pintype="passive"/>
       <node ref="U2" pin="16" pinfunction="SCLOUT2" pintype="output"/>
     </net>
-    <net code="6" name="/SDAin">
+    <net code="6" name="/SDAin" class="Default">
       <node ref="J1" pin="3" pintype="input"/>
       <node ref="J2" pin="3" pintype="input"/>
       <node ref="R3" pin="2" pintype="passive"/>
       <node ref="U2" pin="12" pinfunction="SDAIN" pintype="bidirectional"/>
     </net>
-    <net code="7" name="/SDAout1">
+    <net code="7" name="/SDAout1" class="Default">
       <node ref="J3" pin="3" pintype="input"/>
       <node ref="J4" pin="3" pintype="input"/>
       <node ref="R6" pin="2" pintype="passive"/>
       <node ref="U2" pin="13" pinfunction="SDAOUT1" pintype="bidirectional"/>
     </net>
-    <net code="8" name="/SDAout2">
+    <net code="8" name="/SDAout2" class="Default">
       <node ref="J5" pin="3" pintype="input"/>
       <node ref="J6" pin="3" pintype="input"/>
       <node ref="R17" pin="2" pintype="passive"/>
       <node ref="U2" pin="11" pinfunction="SDAOUT2" pintype="bidirectional"/>
     </net>
-    <net code="9" name="/XORH1">
+    <net code="9" name="/XORH1" class="Default">
       <node ref="R7" pin="1" pintype="passive"/>
       <node ref="R8" pin="1" pintype="passive"/>
       <node ref="U2" pin="5" pinfunction="XORH1" pintype="input"/>
     </net>
-    <net code="10" name="/XORH2">
+    <net code="10" name="/XORH2" class="Default">
       <node ref="R12" pin="1" pintype="passive"/>
       <node ref="R13" pin="1" pintype="passive"/>
       <node ref="U2" pin="3" pinfunction="XORH2" pintype="input"/>
     </net>
-    <net code="11" name="/XORL1">
+    <net code="11" name="/XORL1" class="Default">
       <node ref="JP1" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="R10" pin="1" pintype="passive"/>
       <node ref="R9" pin="1" pintype="passive"/>
       <node ref="U2" pin="6" pinfunction="XORL1" pintype="input"/>
     </net>
-    <net code="12" name="/XORL2">
+    <net code="12" name="/XORL2" class="Default">
       <node ref="JP2" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="R14" pin="1" pintype="passive"/>
       <node ref="R15" pin="1" pintype="passive"/>
       <node ref="U2" pin="4" pinfunction="XORL2" pintype="input"/>
     </net>
-    <net code="13" name="GND">
+    <net code="13" name="GND" class="Default">
       <node ref="C1" pin="2" pintype="passive"/>
       <node ref="C2" pin="2" pintype="passive"/>
       <node ref="C3" pin="2" pintype="passive"/>
@@ -872,11 +1055,11 @@
       <node ref="U2" pin="17" pinfunction="EP" pintype="passive"/>
       <node ref="U2" pin="9" pinfunction="READY2" pintype="open_collector"/>
     </net>
-    <net code="14" name="Net-(D1-A)">
+    <net code="14" name="Net-(D1-A)" class="Default">
       <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R1" pin="2" pintype="passive"/>
     </net>
-    <net code="15" name="unconnected-(U1-NC-Pad4)">
+    <net code="15" name="unconnected-(U1-NC-Pad4)" class="Default">
       <node ref="U1" pin="4" pinfunction="NC" pintype="no_connect"/>
     </net>
   </nets>
