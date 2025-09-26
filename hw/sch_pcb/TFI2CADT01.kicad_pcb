@@ -8,11 +8,10 @@
 	)
 	(paper "A4")
 	(title_block
-		(title "TFI2CEXT01A")
+		(title "TFI2CADT01B")
 		(date "2022-03-24")
 		(company "ThunderFly s.r.o.")
-		(comment 1 "I2C address translator")
-		(comment 2 "Jacho  <info@thunderfly.cz>")
+		(comment 1 "I2C address translator with\\nmultiple translation options")
 	)
 	(layers
 		(0 "F.Cu" jumper)
